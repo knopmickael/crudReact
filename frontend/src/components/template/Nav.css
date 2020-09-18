@@ -1,0 +1,27 @@
+aside.menu-area {
+    background-color: rgb(85, 85, 85);
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+}
+
+.menu a:hover {
+    background-image: linear-gradient(to right, rgb(124, 124, 124) , rgb(175, 175, 175));
+    font-weight: bold;
+}
+
+@media(max-width: 568px) {
+    .menu {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+    }
+    .menu a {
+        display: inline;
+    }
+}

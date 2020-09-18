@@ -1,0 +1,13 @@
+@media(max-width: 568px) {
+    .edit {
+        margin-top:5px;
+        font-size: 10px;
+    }
+    .remove {
+        margin-top:5px;
+        font-size: 10px
+    }
+    .table {
+        font-size: 12px;
+    }
+}

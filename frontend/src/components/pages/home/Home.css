@@ -1,0 +1,10 @@
+@media(max-width: 568px) {
+    .display-4 {
+        padding-top: 35px;
+        text-align: center;
+    }
+
+    .mb-0 {
+        text-align: center;
+    }
+}
